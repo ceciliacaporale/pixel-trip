@@ -9,8 +9,9 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   body {
-    background-color:rgb(143, 164, 185);
+    background-color: #C5D9A8;
     color: #ffffff;
+    overflow-x: hidden;
   }
 
   button {

@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const StyledButton = styled.button`
-  background-color: #00ffcc;
+  background-color: #8C593A;
   border: none;
   padding: 1rem 2rem;
   font-size: 0.75rem;
-  color: #0f1e2e;
+  color: #FEFBE5;
   text-transform: uppercase;
   margin: 2rem auto;
   display: block;
@@ -14,7 +14,7 @@ export const StyledButton = styled.button`
   transition: all 0.2s ease;
 
   &:hover {
-    background-color: #00ccaa;
+    background-color: #549357;
     transform: scale(1.05);
   }
 `;

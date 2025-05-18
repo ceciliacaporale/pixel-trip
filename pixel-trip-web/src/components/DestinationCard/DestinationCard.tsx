@@ -1,11 +1,21 @@
 import React from 'react';
 import { CardContainer, Title, Description } from './DestinationCard.styles';
 
-export const DestinationCard = () => {
-  return (
-    <CardContainer>
-      <Title>🏖️ Praia dos Amores</Title>
-      <Description>Um paraíso escondido em Santa Catarina.</Description>
-    </CardContainer>
-  );
-};
+type Destination = {
+    id: number;
+    name: string;
+    description: string;
+  };
+  
+  type Props = {
+    destination: Destination;
+  };
+  
+  export const DestinationCard = ({ destination }: Props) => {
+    return (
+      <CardContainer>
+        <Title>{destination.name}</Title>
+        <Description>{destination.description}</Description>
+      </CardContainer>
+    );
+  };

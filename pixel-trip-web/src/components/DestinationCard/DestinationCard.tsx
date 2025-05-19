@@ -1,10 +1,11 @@
 import React from 'react';
-import { CardContainer, Title, Description } from './DestinationCard.styles';
+import { CardContainer, Title, Description, Climate } from './DestinationCard.styles';
 
 type Destination = {
     id: number;
     name: string;
     description: string;
+    climate?: string;
   };
   
   type Props = {
@@ -16,6 +17,7 @@ type Destination = {
       <CardContainer>
         <Title>{destination.name}</Title>
         <Description>{destination.description}</Description>
+        <Climate>{destination.climate}</Climate>
       </CardContainer>
     );
   };

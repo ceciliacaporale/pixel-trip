@@ -16,11 +16,11 @@ export const Title = styled.h1`
   margin-bottom: 0.5rem;
   color: #ffcc00;
   font-weight: bold;
-  text-shadow: .05em .05em 0 #87C152;
+  text-shadow: .1em .1em 0 #000;
     text-transform: uppercase;
     font-weight: 300;
     font-size: 42px;
-    -webkit-text-stroke: .025em #8C593A;
+    -webkit-text-stroke: .05em #8C593A;
 `;
 
 export const Subtitle = styled.h2`
